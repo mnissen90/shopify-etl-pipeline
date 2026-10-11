@@ -1,0 +1,6 @@
+# Example client config. Copy to <clientname>.ini, fill in, and never commit
+# real credentials (values support ${ENV_VAR} expansion).
+[shopify]
+store_name = example-store
+api_key = ${SHOPIFY_API_KEY}
+api_password = ${SHOPIFY_API_SECRET}
